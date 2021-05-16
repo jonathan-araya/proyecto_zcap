@@ -20,19 +20,16 @@ public class ConsolasDAO implements ConsolasDAOLocal {
 
 	@Override
 	public void save(Consola consola) {
-		// TODO Auto-generated method stub
 		consolas.add(consola);
 	}
 
 	@Override
 	public List<Consola> getAll() {
-		// TODO Auto-generated method stub
 		return consolas;
 	}
 
 	@Override
 	public void delete(Consola consola) {
-		// TODO Auto-generated method stub
 		consolas.remove(consola);
 	}
 
